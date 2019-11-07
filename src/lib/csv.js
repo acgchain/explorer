@@ -47,7 +47,7 @@ const exportCSV = records => {
   const autoByteOrderMark = true
   saveAs(
     new Blob(['\ufeff', csvData], {type: 'text/csv;charset=utf-8'}),
-    'spc-export.csv',
+    'acg-export.csv',
     autoByteOrderMark
   )
 }
